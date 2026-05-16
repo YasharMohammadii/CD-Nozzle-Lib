@@ -526,7 +526,7 @@ class PlotFunc:
         # Saving Animation
         # print("Creating animation...")
         anim.save(
-            filename=f'/home/yashour/Python/Nozzle Project/Plots/{filename}.mkv', writer='ffmpeg', dpi=300)
+            filename=f'./Plots/{filename}.mkv', writer='ffmpeg', dpi=300)
         print(f"\nAnimation saved as {filename}")
         return anim
 
